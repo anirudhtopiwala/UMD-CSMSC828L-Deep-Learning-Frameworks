@@ -10,8 +10,8 @@ data = MNIST(os.getcwd())
 trainImages, trainLabels = data.load_training()
 testImages, testLabels = data.load_testing()
 
-trainImages = np.reshape(trainImages,(60000,28,28,1)) #correct orientation, you can view the images and see below
-testImages = np.reshape(testImages,(10000,28,28,1))
+trainImages = np.reshape(trainImages,(60000,1,28,28)) #correct orientation, you can view the images and see below
+testImages = np.reshape(testImages,(10000,1,28,28))
 
 trainImages = trainImages.astype('uint8') #images loaded in as int64, 0 to 255 integers
 testImages = testImages.astype('uint8')
