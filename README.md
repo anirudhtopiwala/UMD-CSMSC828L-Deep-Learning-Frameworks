@@ -11,6 +11,6 @@ Here I have experimented with various established datasets and carried out my ow
 4) **MNIST** : I was able to get a test accuracy of 99.06 % and loss of 0.0440. (keras)(Source code can be found [here](https://github.com/anirudhtopiwala/UMD-CSMSC828L-Problem-Set-Solutions/blob/master/PS2/PS2%20-%20MNIST%20.ipynb))
 
 <p align="center">
-<img src="https://github.com/anirudhtopiwala/UMD-CSMSC828L-Problem-Set-Solutions/blob/neuralnetwork.gif">
+<img src="https://github.com/anirudhtopiwala/UMD-CSMSC828L-Problem-Set-Solutions/blob/master/neuralnetwork.gif">
 </p>
 
